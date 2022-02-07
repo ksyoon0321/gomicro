@@ -4,8 +4,7 @@
  - Client Side
  - Register Adapter ( Redis Pub/Sub, HttpServer )
 
-₩
-
+#
 	env := flag.String("env", "local", "current env")
 	flag.Parse()
 	godotenv.Load(".env." + *env)
@@ -20,8 +19,7 @@
 	regserver.RegistAdapter(httpAdap)
 	regserver.RegistAdapter(redisAdap)
 	regserver.Listen()
-
-₩
+#
 
 ##Load Balancer
  - Round Robin
