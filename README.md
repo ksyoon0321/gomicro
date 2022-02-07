@@ -1,4 +1,4 @@
-# MSA 개념잡을 용도, 기능은 최대한 간단하게
+# MSA 기능은 최대한 간단하게
 
 ##Service Registry
  - Client Side
