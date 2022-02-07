@@ -2,7 +2,7 @@
 
 ##Service Registry
  - Client Side
- 
+ - Register Adapter ( Redis Pub/Sub, HttpServer )
 ##Load Balancer
  - Round Robin
  - Failover
