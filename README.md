@@ -21,9 +21,8 @@
 	regserver.Listen()
 #
 
-##Load Balancer
- - Round Robin
- - Failover
+##Gateway ( grpc gateway, http restapi 2가지 혼용 v1 -> http, v2 -> grpc gateway)
+ - Load Balancer (Round Robin, Failover)
 
 ##Log Service
 
